@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class GeneratePermutation {
+public class GeneratePermutation {    
     public static void helper(int[] arr, ArrayList<Integer> ans) {
         if (ans.size() == arr.length) {
             printList(ans);
